@@ -1,0 +1,6 @@
+2025-02-14 13:03:19,425 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.0.12; built: 2024-07-25T21:58:37.668Z; git: cc6f1b74db755fed228b50701ad967aeaa68e83f; jvm 21.0.5+11-LTS
+2025-02-14 13:03:19,436 [main] INFO  o.e.j.server.handler.ContextHandler - Started oejsh.ContextHandler@2178325d{ROOT,/,b=null,a=AVAILABLE,vh=[127.0.0.1],h=oejsh.ResourceHandler@6471020c{STARTED}}
+2025-02-14 13:03:19,440 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@29c03a7c{HTTP/1.1, (http/1.1)}{0.0.0.0:56965}
+2025-02-14 13:03:19,445 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@2a694c7c{STARTING}[12.0.12,sto=0] @28550ms
+2025-02-14 13:03:34,058 [main] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@2a694c7c{STOPPING}[12.0.12,sto=0]
+2025-02-14 13:03:34,066 [main] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@29c03a7c{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
