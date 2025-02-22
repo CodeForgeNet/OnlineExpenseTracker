@@ -7,20 +7,25 @@
 <title>Insert title here</title>
 <%@include file="component/all_css.jsp"%>
 </head>
-<body>
+<body class="bg-light" >
 	<%@include file="component/navbar.jsp"%>
+	<style type="text/css" >
+		.card-sh{
+			box-shadow: 0 0 6px 0 rgba(0,0,0,0.3);
+		}
+	</style>
 
-	<div class="container">
+	<div class="container p-5">
 		<div class="row">
 			<div class="col-md-6 offset-md-3">
-				<div class="card">
-					<div class="class-header">
+				<div class="card card-sh">
+					<div class="card-header">
 						<p class="text-center fs-3">Register Page</p>
 					</div>
 
-					<div class="class-body">
+					<div class="card-body">
 						<form action="" method="">
-							<div class="mb-3">
+							<div class="mb-3 ">
 								<label>Enter Full Name </label>
 								<input type="text" name="fullName" class="form-control" >
 							</div>
@@ -36,6 +41,8 @@
 								<label>About</label>
 								<input type="text" name="about" class="form-control" >
 							</div>
+							<button class="btn btn-success col-md-12" >Register</button>
+							
 						</form>
 					</div>
 				</div>
